@@ -1,0 +1,612 @@
+.=====================================================================.
+                                                                       
+  .d8888b.   .o8888b.  db  .d8888b.  d8888b. d88888b d8888b.  .d888b.  
+ .8P    Y8. d8P    Y8  88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8. 
+ 88      88 8P     .ooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88 
+ 88      88 8b     `~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88 
+ `8b    d8' Y8b    d8  88 `8b    d8' 88   8D 88.     88 `88. `8b | d8' 
+  `Y8888P'   `Y8888P'  YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P'  
+                                                                       
+`========================== INSTALLATION LOG ========================='
+
+[2019/09/18 11:40:02] Host: Linux bubuntu 4.15.0-60-generic #67-Ubuntu SMP Thu Aug 22 16:55:30 UTC 2019 x86_64
+[2019/09/18 11:40:02] PHP version: 7.2.19-0ubuntu0.18.04.2
+[2019/09/18 11:40:02] Server software: Apache/2.4.29 (Ubuntu)
+[2019/09/18 11:40:02] Operating system: Linux
+[2019/09/18 11:40:02] Memory limit: 128M
+[2019/09/18 11:40:02] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:02] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:02] System check: phpVersion
+[2019/09/18 11:40:02] Requirement phpVersion +OK
+[2019/09/18 11:40:02] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:03] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:03] System check: curlLibrary
+[2019/09/18 11:40:03] Requirement curlLibrary +OK
+[2019/09/18 11:40:03] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:03] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:03] System check: liveConnection
+[2019/09/18 11:40:06] Server request: ping
+[2019/09/18 11:40:06] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 477
+    [request_size] => 169
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.324353
+    [namelookup_time] => 1.514383
+    [connect_time] => 1.914096
+    [pretransfer_time] => 1.914887
+    [size_upload] => 30
+    [size_download] => 12
+    [speed_download] => 5
+    [speed_upload] => 12
+    [download_content_length] => -1
+    [upload_content_length] => 30
+    [starttransfer_time] => 2.324289
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 54.68.25.146
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 10.0.2.15
+    [local_port] => 40364
+)
+
+[2019/09/18 11:40:06] Requirement liveConnection +OK
+[2019/09/18 11:40:06] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:06] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:06] System check: writePermission
+[2019/09/18 11:40:06] Requirement writePermission +OK
+[2019/09/18 11:40:06] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:07] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:07] System check: pdoLibrary
+[2019/09/18 11:40:07] Requirement pdoLibrary +OK
+[2019/09/18 11:40:07] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:07] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:07] System check: mbstringLibrary
+[2019/09/18 11:40:07] Requirement mbstringLibrary +OK
+[2019/09/18 11:40:07] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:08] Postback payload: Array
+(
+    [code] => fileinfoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:08] System check: fileinfoLibrary
+[2019/09/18 11:40:08] Requirement fileinfoLibrary +OK
+[2019/09/18 11:40:08] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:08] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:08] System check: sslLibrary
+[2019/09/18 11:40:08] Requirement sslLibrary +OK
+[2019/09/18 11:40:08] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:09] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:09] System check: zipLibrary
+[2019/09/18 11:40:09] Requirement zipLibrary +OK
+[2019/09/18 11:40:09] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:40:09] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/09/18 11:40:09] System check: gdLibrary
+[2019/09/18 11:40:09] Requirement gdLibrary +OK
+[2019/09/18 11:40:09] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:45:36] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+[2019/09/18 11:45:36] Handler error (onValidateDatabase): Connection failed: could not find driver
+[2019/09/18 11:45:36] Trace log:
+#0 /var/www/html/install_files/php/Installer.php(48): Installer->onValidateDatabase()
+#1 /var/www/html/install_files/php/boot.php(91): Installer->__construct()
+#2 /var/www/html/install.php(1): include('/var/www/html/i...')
+#3 {main}
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:52:19] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+[2019/09/18 11:52:19] Handler error (onValidateDatabase): Connection failed: could not find driver
+[2019/09/18 11:52:19] Trace log:
+#0 /var/www/html/install_files/php/Installer.php(48): Installer->onValidateDatabase()
+#1 /var/www/html/install_files/php/boot.php(91): Installer->__construct()
+#2 /var/www/html/install.php(1): include('/var/www/html/i...')
+#3 {main}
+.============================ POST REQUEST ==========================.
+[2019/09/18 11:53:18] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+[2019/09/18 11:53:18] Handler error (onValidateDatabase): Connection failed: could not find driver
+[2019/09/18 11:53:18] Trace log:
+#0 /var/www/html/install_files/php/Installer.php(48): Installer->onValidateDatabase()
+#1 /var/www/html/install_files/php/boot.php(91): Installer->__construct()
+#2 /var/www/html/install.php(1): include('/var/www/html/i...')
+#3 {main}
+.============================ POST REQUEST ==========================.
+[2019/09/18 01:23:55] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+[2019/09/18 01:23:56] Handler error (onValidateDatabase): Connection failed: could not find driver
+[2019/09/18 01:23:56] Trace log:
+#0 /var/www/html/install_files/php/Installer.php(48): Installer->onValidateDatabase()
+#1 /var/www/html/install_files/php/boot.php(91): Installer->__construct()
+#2 /var/www/html/install.php(1): include('/var/www/html/i...')
+#3 {main}
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:27:38] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:27:38] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:27:38] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:29:04] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [handler] => onInstallStep
+)
+
+[2019/09/19 09:29:04] Install step: getMetaData
+[2019/09/19 09:29:05] Server request: core/install
+[2019/09/19 09:29:05] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 477
+    [request_size] => 177
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.015896
+    [namelookup_time] => 0.127857
+    [connect_time] => 0.400806
+    [pretransfer_time] => 0.401145
+    [size_upload] => 30
+    [size_download] => 132
+    [speed_download] => 130
+    [speed_upload] => 29
+    [download_content_length] => -1
+    [upload_content_length] => 30
+    [starttransfer_time] => 1.014871
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 54.68.25.146
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 10.0.2.15
+    [local_port] => 40376
+)
+
+[2019/09/19 09:29:05] Step getMetaData +OK
+[2019/09/19 09:29:05] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+                    [build] => 458
+                    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+                )
+
+            [plugins] => Array
+                (
+                )
+
+            [themes] => Array
+                (
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:29:05] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+                    [build] => 458
+                    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2019/09/19 09:29:05] Install step: downloadCore
+[2019/09/19 09:30:21] Saving to file (core): /var/www/html/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2019/09/19 09:30:21] Step downloadCore +OK
+[2019/09/19 09:30:21] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:30:21] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+                    [build] => 458
+                    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2019/09/19 09:30:21] Install step: extractCore
+[2019/09/19 09:30:21] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2019/09/19 09:30:22] Step extractCore +OK
+[2019/09/19 09:30:22] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:30:22] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+                    [build] => 458
+                    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2019/09/19 09:30:22] Install step: setupConfig
+[2019/09/19 09:30:23] Step setupConfig +OK
+[2019/09/19 09:30:23] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:30:23] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+                    [build] => 458
+                    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october_db
+    [db_user] => october_user
+    [db_pass] => *******
+    [admin_first_name] => benjamin
+    [admin_last_name] => nurmi
+    [admin_email] => *******@*****.com
+    [admin_login] => adminbenjam1n
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onInstallStep
+)
+
+[2019/09/19 09:30:23] Install step: createAdmin
+[2019/09/19 09:30:29] Step createAdmin +OK
+[2019/09/19 09:30:29] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:30:29] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/09/19 09:30:29] Install step: setupProject
+[2019/09/19 09:30:29] Step setupProject +OK
+[2019/09/19 09:30:29] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/09/19 09:30:30] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+                    [build] => 458
+                    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+                )
+
+        )
+
+    [hash] => 462e49f2d6d2896abb56874dbdb64aee
+    [build] => 458
+    [uhash] => 7ecf00bd75e60458191bfcdc43dc14e5
+    [handler] => onInstallStep
+)
+
+[2019/09/19 09:30:30] Install step: finishInstall
+[2019/09/19 09:30:30] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2019/09/19 09:30:30] Step finishInstall +OK
+[2019/09/19 09:30:30] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
